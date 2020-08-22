@@ -23,15 +23,3 @@
 <!-- wp:list -->
 <ul><li><strong>Data Collection From Excel and CSV Files</strong></li><li><strong>Consolidate, Preprocess, Transform and Resample the Datasets</strong></li><li><strong>Visualizing and Exporting the Results with Matplotlib, Seaborn and Openpyxl</strong></li></ul>
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-<p>Heatmap that reflects the correlation between internal fixed income trading activity and that of the US treasury market.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":178,"sizeSlug":"large","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="https://gregjasonroberts.files.wordpress.com/2020/08/image-3.png?w=520" alt="" class="wp-image-178"/><figcaption>Created a pairplot to compare internal fixed income trading against treasuries and the MOVE Index.</figcaption></figure>
-<!-- /wp:image -->
