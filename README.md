@@ -48,9 +48,11 @@ From the Q-Q plot we see more easily how the residuals deviate from the tails of
 Given the correlations, we'll focus on the longest duration,and total volume.  I was concerned about the multicollinearity, however the predictors did not display a very strong correlation(0.6) and the tradeoff is that we can incorporate the shorter-term durations in addition to the longer dated maturities.
 
 ![alt text](images/fi_histplot.png)
+
 We see that the residuals show a fairly normal distribution centered at 0. Not perfect, by visual inspection there is some skew towards the right, with a few higher unusual values towards the left of the distribution.
 
 * The mean square error was fairly high as seen below and therefore I went back to further transforming the variables with the box-cox transformation
+
 Train set
 Linear Regression mse: 25373394232.99647
 Test set
@@ -60,6 +62,7 @@ Linear Regression mse: 40162556060.600044
 ### Model Performance
 
 ![alt text](images/residual_multiplot.png)
+
 On the right, we have the distribution of the residuals in the train and test sets. We see that it is not perfectly centered at 0.  On the left, we have the residuals vs the predicted value, we also see that the variance is not constant. Towards the extremes of the predictions, the model is under-estimating the outcome (most residuals are negative). And towards the center of the predictions, the model is over-estimating the outcome. So the residuals variance is not constant for all values.
 
 In this case we didn't witness much of an improvement afte the transformations. We need to keep digging for other predictor variables to build a stronger model. But we've been able to rule out some factors that may have made some intuative sense yet failed to significantly explain the behavior of the internal trading volumes
