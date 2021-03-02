@@ -55,9 +55,10 @@ We see that the residuals show a fairly normal distribution centered at 0. Not p
 
 * The mean square error was fairly high as seen below and therefore I went back to further transforming the variables with the box-cox transformation
 
-Train set
+**Train set**
 Linear Regression mse: 25373394232.99647
-Test set
+
+**Test set**
 Linear Regression mse: 40162556060.600044
 
 
