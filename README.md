@@ -40,8 +40,10 @@ After reading in the data, it was necessary to transform the data to prepare it 
 I looked at a correlation matrix to determine which predictor variables were ultimately sufficient for modeling (high correlation to the target) as well as careful to introduce multicollinearity which was a potential issue in this set. Below are a few highlights:
 
 ![alt text](images/corr_matrix.png)
+
 Given the correlations of nearly 70%, I chose the > 11yr maturity series as well as the All Treasury Volume aggregation of all maturities in the primary dealer dataset.  
 ![alt text](images/prob_plot.png)
+
 From the Q-Q plot we see more easily how the residuals deviate from the tails of the distribution, therefire, they are not normally distributed.
 
 ### Model Building
