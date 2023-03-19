@@ -51,7 +51,7 @@ Given the correlations, we'll focus on the longest duration,and total volume.  I
 
 ![alt text](images/fi_histplot.png)
 
-We see that the residuals show a fairly normal distribution centered at 0. Not perfect, by visual inspection there is some skew towards the right, with a few higher unusual values towards the left of the distribution.
+We see that the residuals show a fairly normal distribution centered at 0. Not perfect, by visual inspection there is some skew towards the left, with a few noticeable outliers in the distribution.
 
 * The mean square error was fairly high as seen below and therefore I went back to further transforming the variables with the box-cox transformation
 
